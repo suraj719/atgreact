@@ -1,0 +1,150 @@
+.navbar {
+    display: flex;
+    justify-content: space-around !important;
+  }
+  .closemodalbtn {
+      border-radius: 50px;
+  
+  }
+  .bg-pic {
+    width: 100%;
+    /* filter: opacity(0.8); */
+    filter: brightness(0.6);
+    /* filter: contrast(0.9); */
+  }
+  .links a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 15px;
+  }
+  .location-input {
+    border: none;
+    outline: none;
+  }
+  .signup-form input {
+    border: 2px solid #d9d9db;
+    /* border-top: 0; */
+    outline: none;
+    padding-left: 15px;
+    height: 46px;
+  }
+  
+  .mobile-header {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: none;
+  }
+  .tt {
+    position: absolute;
+    bottom: 5rem;
+    left: 12rem;
+  }
+  .whole-articles {
+    margin: 30px 200px;
+  }
+  .card {
+    width: 692px;
+  }
+  .mobile-links {
+    display: none;
+  }
+  .mobsignupbottom {
+      display: none;
+  }
+  .mobsigninbtn {
+      display: none;
+  }
+  .mtt {
+      display: none;
+  }
+  
+  @media only screen and (max-width: 502px) {
+    .navbar {
+      display: none !important;
+    }
+    .mobile-header {
+      display: block !important;
+    }
+    .tt {
+      bottom: 50px;
+      left: 2px;
+    }
+    .bg-pic {
+      height: 336px !important;
+    }
+    .mobile-right {
+      display: none;
+    }
+    .whole-articles {
+      margin: 15px 0;
+    }
+    .card {
+      width: 30rem !important;
+    }
+    .ar-img {
+      width: 30rem !important;
+    }
+    .links {
+      display: none !important;
+    }
+    .mobile-links {
+      display: flex;
+    }
+  
+    .modal-heade {
+      display: none;
+    }
+    .mobile-signup-right {
+      display: none;
+    }
+    .modal-dialog {
+      position: absolute;
+      bottom: 0;
+      margin: 0 !important;
+      width: 90% !important;
+    }
+    .modal-body {
+      /* text-align: center; */
+      justify-content: center;
+      align-items: center;
+      margin:0 !important;
+      margin-bottom: -50px !important;
+    }
+    .mr {
+      margin: 0 !important;
+    }
+    .md {
+      margin: 0 !important;
+    }
+    .mobcreatebtn {
+      position: absolute;
+      /* bottom:13rem; */
+      margin-top: 60px !important;
+      left:20px;
+      width: 30% !important;
+    }
+    .mobsignupbottom {
+      /* margin-top: 50px !important; */
+      display: block;
+    }
+    .mobsigninbtn {
+      display:  block;
+      text-align: end;
+      margin-top: 15px;
+      margin-right: 30px;
+      margin-bottom: 20px;
+    }
+    .mtts {
+      display: none;
+    }
+    .mtt {
+      display: block;
+    }
+    .closemodalbtn {
+      margin-right: 55px !important;
+      /* margin-bottom: -20px !important; */
+      top:60px !important;
+    }
+  }
+  
